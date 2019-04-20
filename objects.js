@@ -1,5 +1,5 @@
 var playlist = new Object({'artist':'song'});
-var updatePlaylist = ({'artistName':'songTitle'});
+var updatePlaylist = ({artistName, songTitle});
 
 ('updatePlaylist(playlist, artistName, songTitle)', () => {
     before(() => {
