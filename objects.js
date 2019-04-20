@@ -5,6 +5,7 @@ function updatePlaylist (playlist, artistName, songTitle ) {
 playlist['My Bloody Valentine'] = 'Sometimes';
 playlist['Phil Ochs'] = "Here's to the State of Mississippi";
 
+function 
 delete playlist['Slowdive'];
 
 
