@@ -2,7 +2,9 @@ var playlist = ({artistName: 'Slowdive', songTitle: 'Allison'});
 function updatePlaylist (playlist, artistName, songTitle ) {
   return Object.assign({}, playlist, {[artistName]: songTitle});
 }
-playlist[]
+playlist['My Bloody Valentine'] = 'Sometimes';
+playlist['Phil Ochs'] = "Here's to the State of Mississippi";
+
 // var updatePlaylist = ({artistName, songTitle});
 
 // ('updatePlaylist(playlist, artistName, songTitle)', () => {
